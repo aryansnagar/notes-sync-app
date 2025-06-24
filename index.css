@@ -1,0 +1,49 @@
+:root {
+    --background: #111111;
+    --border: #202020;
+    --text: #f5f5f5;
+}
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 16px;
+    color: var(--text);
+    font-family: 'Synonym';
+}
+
+body {
+    background-color: var(--background);
+}
+
+div {
+    width: calc(100%);
+    height: calc(100vh);
+}
+
+textarea {
+    margin: 0px auto;
+    padding: 40px 40px;
+    width: calc(100% - 80px);
+    height: calc(100vh - 80px);
+    resize: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    overflow-y: auto;
+}
+
+button {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 10px 20px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    background-color: transparent;
+    cursor: pointer;
+}
